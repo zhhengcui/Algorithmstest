@@ -27,7 +27,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] data = { 9, -16, 21, 23, -30, -49, 21, 30, 50};
+        int[] data = { 9, -16, 21, 23, -30, -49, 21, 30, 20};
         System.out.println("排序之前：\n" + Arrays.toString(data));
 
         bubbleSort(data);

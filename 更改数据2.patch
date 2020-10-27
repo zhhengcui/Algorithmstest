@@ -1,0 +1,16 @@
+Index: src/main/java/BubbleSort.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/BubbleSort.java	(revision 90aa93fc637e504cb7acee66c775c8a403385afd)
++++ src/main/java/BubbleSort.java	(date 1603797892969)
+@@ -27,7 +27,7 @@
+     }
+ 
+     public static void main(String[] args) {
+-        int[] data = { 9, -16, 21, 23, -30, -49, 21, 30, 50};
++        int[] data = { 9, -16, 21, 23, -30, -49, 21, 30, 20};
+         System.out.println("排序之前：\n" + Arrays.toString(data));
+ 
+         bubbleSort(data);
